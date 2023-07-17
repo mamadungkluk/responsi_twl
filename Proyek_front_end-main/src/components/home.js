@@ -17,7 +17,7 @@ function Home() {
         </thead>
         <tbody>
           {products.map((product) => (
-            <tr key={product.id} className="product-list__ok">
+            <tr className="product-list__ok">
               <td>{product.name}</td>
               <td>Rp. {product.price ? product.price.toLocaleString() : ''}</td>
               <td>{product.action}</td>
